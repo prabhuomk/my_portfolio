@@ -32,7 +32,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
        
           <a href="#portfolio" onCbuttonck={()=>setMenuOpen(false)}>PROJECTS</a>
         
-        
+          <a href="#contact" onCbuttonck={()=>setMenuOpen(false)}>CONTACT</a>
           
         </div>
       </div>
