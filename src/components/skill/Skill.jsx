@@ -8,7 +8,7 @@ export default function Skill() {
   return (
     <div className="skill" id="skill">
       <div className="left">
-        <div ><b>MY GUVI CODEKATTA PROFILE</b></div>
+        <div ><b>MY GUVI CODEKATA PROFILE</b></div>
         <img src="assets/guviprofile.png" alt="" />
       </div>
       <div className="right">

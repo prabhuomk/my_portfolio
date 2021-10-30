@@ -10,14 +10,40 @@
 
   .left {
     flex: 1;
+    justify-content: flex-end;
+    display: flex;
     overflow: hidden;
+    align-items: center;
+    position: relative;
+    h3{
+      font-size: 40px;
+      
+      position: absolute;
+      top:20px;
+    }
 
-    img {
-      height: 100%;
+    .img1 {
+      height: 100px;
+      cursor: pointer;
+     
+      
+      
+    }
+    .img2 {
+      height: 80px;
+      cursor: pointer;
+      
+      
+    }
+    .img3 {
+      height: 100px;
+      cursor: pointer;
+      
+      
     }
   }
   .right {
-    flex: 1;
+    flex: 0.5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,16 +85,21 @@
 
       button {
         width: 150px;
-        height: 30px;
-        color: white;
-        background-color: crimson;
-        border: none;
+        height: 40px;
+        color:black;
+        background-color:crimson;
+        
         border-radius: 10px;
         font-weight: 500;
         cursor: pointer;
+        border-color: black;
 
         &:focus {
           outline: none;
+        }
+        .img2{
+            width: 80px;
+            height: 20px;
         }
       }
 
